@@ -18,7 +18,7 @@ Hello <NAME>, welcome to the Learn to Code course.
 ```
 
 > **Hint:**<br />
-> Use `readline-sync` for the input and `console.log()` for the output .
+> Use `input()` for the input and `print()` for the output .
 
 
 ## Exercise 2
