@@ -1,5 +1,5 @@
-# {{ Course Name }}
-## Full Stack Course - {{ Start Date }}
+# NIT
+## Coding Class - Summer 2023
 
 ### ✏️ Homework
 
