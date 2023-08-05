@@ -23,7 +23,10 @@ else:
 
 print("Bye Bye!")
 
-number1 = 54
-number2 = 34
+number1 = 154
+number2 = 0
 
-
+if number1 > number2:
+    print("The highest number is " + str(number1))
+else:
+    print("The highest number is " + str(number2))
