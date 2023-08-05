@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>My page title</title>
+        <style>
+
+            h1 {
+                color: red;
+                font-weight: normal;
+                font-family: Arial, Helvetica, sans-serif;
+                text-shadow: 10px 10px 15px green;
+            }
+
+            button {
+                width: 400px;
+                height: 50px;
+                border: solid 5px green;
+                border-radius: 20px;
+                color: yellow;
+                background-color: pink;
+                font-weight: bold;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>The title</h1>
+        <h1>The other Title</h1>
+        <h2>The subtitle</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur sequi architecto perspiciatis assumenda minus molestiae, non eius reprehenderit dolore, dignissimos sit nisi numquam illo voluptatibus, obcaecati inventore hic labore veritatis.</p>
+        
+        <a href="https://google.com">GOOGLE</a>
+        <a href="https://statista.com">Statista</a>
+
+        <div id="numberBox">
+            0
+        </div>
+        <button id="buttonClickMe">Click me!!!!!</button>
+
+        <ul>
+            <li>Apples</li>
+            <li>Oranges</li>
+            <li>Bananas</li>
+        </ul>
+
+        <script>
+            const numberBox = document.getElementById("numberBox");
+            const buttonClickMe = document.getElementById("buttonClickMe");
+
+            let counter = 0;
+            
+            buttonClickMe.addEventListener("click", function() {
+                
+                counter += 1;
+                numberBox.innerHTML = counter;
+
+                if (counter > 10) {
+                    numberBox.style.background = "red";
+                }
+            });      
+
+        </script>
+    </body>
+</html>
