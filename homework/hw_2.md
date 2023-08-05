@@ -8,8 +8,8 @@
 ## Exercise 8
 Write a program that check wether a number exists inside an array of numbers.
 ```
-let n = 5;
-let numbers = [4, 7, 10, 12, 1, 8, 20];
+n = 5;
+numbers = [4, 7, 10, 12, 1, 8, 20];
 // for this case the result would be false
 ```
 
@@ -17,7 +17,7 @@ let numbers = [4, 7, 10, 12, 1, 8, 20];
 ## Exercise 9
 Write a program that prints **1 per line** only the names on odd positions in an array of names.
 ```
-let names = [“Josie”, “Cathrin”, “Bob”, “Max”, “Hannah”, “Alex”];
+names = [“Josie”, “Cathrin”, “Bob”, “Max”, “Hannah”, “Alex”];
 ```
 
 
